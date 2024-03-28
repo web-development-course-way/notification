@@ -1,0 +1,10 @@
+server:
+  port: 8001
+
+spring:
+  mail:
+    username: mahmoud.aboelsoud.p@gmail.com
+    password: dkmlfludoystoefj
+
+  kafka:
+    bootstrap-servers: localhost:9092

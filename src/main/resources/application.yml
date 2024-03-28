@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /notification
+
+spring:
+  application.name: Notification Service
+  profiles.active: local
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${username}
+    password: ${password}
+    properties:
+      mail:
+        transport:
+          protocol: smtp
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
