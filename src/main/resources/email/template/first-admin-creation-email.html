@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Created!</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to Our FMS Platform, <span th:text="${name}"/> !</h1>
+<p>Your account has been successfully created.</p>
+<p>Here are your login credentials:</p>
+<ul>
+    <li>Email: <span th:text="${email}"/></li>
+    <li>Password: <span th:text="${password}"/> (Please keep this confidential)</li>
+</ul>
+<p>We recommend you change your password after logging in for the first time.</p>
+<br/>
+<p>Sincerely,</p>
+<p>Team C</p>
+</body>
+</html>
