@@ -1,4 +1,4 @@
-# notification
+# Notification
 A service that provide notification (email, SMS, ...) functionality
 
 # Tech Stack
